@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shirts</title>
+
+    <!-- Copied from https://getbootstrap.com/docs/3.3/getting-started/ -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- linking the shirts.js file -->
+    <script src="app.js"> </script>
+
+</head>
+<body>
+    <div class="container">
+        <h1> Choose the category you wish to explore: </h1>
+
+        <!--
+        <button type="button" class="bt" onclick="window.open('shirts.html')"> Shirts</button>
+        <button type="button" class="bt" onclick="window.open('jackets.html')">Jackets</button>
+        <button type="button" class="bt" onclick="window.open('accessories.html')">Accessories</button>
+        -->
+        <button type="button" class="bt" onclick="location.href = 'shirts.html'">Shirts</button>
+        <button type="button" class="bt" onclick="location.href = 'jackets.html'">Jackets</button>
+        <button type="button" class="bt" onclick="location.href = 'accessories.html'">Accessories</button>
+
+        <ul class="list-group">
+            <!-- <li class="list2"></li> -->
+            <div class="display-name">
+                <button type="button" class="bt" id="d-name" onclick=""> Display Name </button>
+            </div>
+        </ul>
+    </div>
+</body>
+</html>
